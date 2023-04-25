@@ -1,0 +1,31 @@
+body{
+    font-family: cursive;
+    background-color: #216397;
+       height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+button{
+    height: 165px;
+    width: 260px;
+    border-radius: 20px;
+    border: solid black 8px;
+    cursor: pointer;
+}
+
+ button:active{
+    transform: translateY(4px);
+
+ }
+
+ .add{
+    box-shadow: 7px 7px 10px rgb(165,59, 59);
+    transform: translateY(5px);
+    border-width: 10px;
+ }
+
